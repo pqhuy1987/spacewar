@@ -289,7 +289,7 @@ enum GameStage {
     
     
     
-    _titleLabel2 = [CCLabelBMFont labelWithString:@"Space" fntFile:fontName];
+    _titleLabel2 = [CCLabelBMFont labelWithString:@"Kira" fntFile:fontName];
     _titleLabel2.scale = 0;
     _titleLabel2.position = ccp(-200, winSize.height);
     [self addChild:_titleLabel2 z:100];
@@ -306,7 +306,7 @@ enum GameStage {
       [CCMoveTo actionWithDuration:.25 position:ccp(winSize.width * .25, winSize.height)],
       nil]];
     
-    _titleLabel3 = [CCLabelBMFont labelWithString:@"Trigger" fntFile:fontName];
+    _titleLabel3 = [CCLabelBMFont labelWithString:@"Space" fntFile:fontName];
     _titleLabel3.scale = 0;
     _titleLabel3.position = ccp(winSize.width + 250, winSize.height * .85);
     [self addChild:_titleLabel3 z:100];
