@@ -1903,7 +1903,7 @@ enum GameStage {
 -(void)showScore
 {
     if (_isPlaying){
-        [_hud setScoreLabel:[NSString stringWithFormat:@"%d", _score]];
+        [_hud setScoreLabel:[NSString stringWithFormat:@"     %d", _score]];
         [_hud setScoreLabelScore:[NSString stringWithFormat:@"Score: "]];
     }
 }
@@ -1912,7 +1912,7 @@ enum GameStage {
 {
     
     if (_isPlaying){
-        [_hud setScoreLabel:[NSString stringWithFormat:@"%d", _score]];
+        [_hud setScoreLabel:[NSString stringWithFormat:@"      %d", _score]];
     }
     
 }

@@ -289,7 +289,7 @@ enum GameStage {
     
     
     
-    _titleLabel2 = [CCLabelBMFont labelWithString:@"StarWar" fntFile:fontName];
+    _titleLabel2 = [CCLabelBMFont labelWithString:@"HulkShip" fntFile:fontName];
     _titleLabel2.scale = 0;
     _titleLabel2.position = ccp(-200, winSize.height);
     [self addChild:_titleLabel2 z:100];

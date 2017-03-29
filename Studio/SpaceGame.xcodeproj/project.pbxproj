@@ -2026,7 +2026,7 @@
 					"-lz",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.studio.universal.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studio.ns.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"SpaceGame/libs\"";
@@ -2058,7 +2058,7 @@
 					"-lz",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.studio.universal.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studio.ns.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"SpaceGame/libs\"";
